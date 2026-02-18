@@ -1,0 +1,48 @@
+### --- C / C++ --- ###
+# Object files and libraries
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+### --- Java --- ###
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package Files (if you don't want to store your jars)
+*.jar
+*.war
+*.ear
+
+### --- Python --- ###
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+### --- General & Security --- ###
+# Environment variables (Crucial for security)
+.env
+.env.*
+
+# Shell scripts (optional: only ignore if they are temporary/local)
+ *.sh
+
+# OS generated files
+.DS_Store
+Thumbs.db
